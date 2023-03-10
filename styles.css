@@ -1,0 +1,150 @@
+header, main {
+max-width: 1150px;
+margin: auto;
+}
+.brand {
+    color: coral;
+    font-size: 48px;
+    font-weight: bolder;
+}
+.banner {
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 60px 0px 60px;
+    border-radius: 20px;
+}
+.caption{
+    color: white;
+    max-width: 400px;
+}
+.caption h2 {
+    margin-top: 0;
+    font-size: 60px;
+    font-weight: bold;
+    line-height: 65px;
+}
+.caption p {
+    margin-top: -35px;
+}
+.btn {
+    padding: 10px 16px;
+    background-color: rgba(221, 0, 0, 1);
+    border-radius: 5px;
+    border: none;
+    color: white;
+}
+.icon {
+    padding-left: 5px;
+    color: darkgray;
+}
+.photo img {
+    height: 450px;
+    width: auto;
+    padding-left: 50px;
+}
+.upcomimg-match {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    display: grid;
+    grid-template-columns: 282.5px 847.5px;
+    gap: 20px;
+}
+.toggler {
+    display: grid;
+    grid-template-rows: auto auto auto;
+    gap: 20px;
+    height: fit-content;
+    background-color: black;
+    border-radius: 12px;
+    padding: 32px;
+}
+.toggle-btn {
+    font-size: 18px;
+    font-weight: 500;
+    text-decoration: none;
+    color: black;
+    background-color: white;
+    border-radius: 6px;
+    padding: 17px;
+    text-align: center;
+}
+.active {
+    background-color: red;
+    color: white;
+}
+.matches {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 20px;
+}
+.match-card {
+    border: 1px solid rgba(232, 232, 232, 1);
+    border-radius: 12px;
+    padding: 42px 0px;
+}
+.card-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.versus {
+    font-size: 16px;
+    font-weight: bold;
+    padding: 0px 12px; 
+}
+.card-body {
+   text-align: center;
+   line-height: 10px;
+}
+.card-title {
+    font-size: 20px;
+}
+.card-text {
+    font-size: 16px;
+}
+.blog-card {
+    border: 1px solid rgba(232, 232, 232, 1);
+    border-radius: 12px;
+}
+.blog-card img {
+    max-width: 268px;
+}
+.blog-btn {
+    background-color: white;
+    border: 1px solid gray;
+    border-radius: 3px;
+    padding: 3px 16px;
+}
+.blog-card .card-body {
+    text-align: left;
+    padding: 16px;
+    line-height: normal;
+}
+.blog-icon {
+    font-size: 18px;
+    margin-right: 36px;
+    color: rgba(22, 22, 22, 0.7);
+}
+.blog-icon i {
+    padding-right: 12px;
+}
+.footer {
+    max-width: 1300px;
+    background-color: rgba(22, 22, 22, 1);
+    color: white;
+    padding: 100px 120px;
+    text-align: center;
+}
+hr {
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    margin-bottom: 50px;
+}
+.footer a {
+    font-size: 16px;
+    font-weight: 500;
+    color: rgba(185, 185, 185, 1);
+    margin: 25px;
+    text-decoration: none;
+}
