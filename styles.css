@@ -112,7 +112,7 @@ margin: auto;
     border-radius: 12px;
 }
 .blog-card img {
-    max-width: 268px;
+    width: 100%;
 }
 .blog-btn {
     background-color: white;
@@ -142,17 +142,17 @@ margin: auto;
     display: grid;
     grid-template-rows: auto;
     row-gap: 8px;
+    justify-content: center;
     margin-bottom: 20px;
 }
 .groupcard-text {
     padding: 0px 20px;
     align-items: center;
-    text-align: center;
     display: flex;
     height: 40px;
 }
 .groupcard-text img {
-    margin-right: 20px;
+    margin-right: 40px;
 }
 .footer {
     max-width: 1350px;
@@ -203,6 +203,9 @@ hr {
     .matches {
         grid-template-columns: auto auto;
     }
+    .groupcard-text img {
+        margin-right: 70px;
+    }
     .footer {
         padding: 100px 50px;
     }
@@ -241,6 +244,9 @@ hr {
     }
     .matches {
         grid-template-columns: auto;
+    }
+    .groupcard-text img {
+        margin-right: 100px;
     }
     .footer {
         padding: 100px 40px;
